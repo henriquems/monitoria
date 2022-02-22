@@ -1,0 +1,26 @@
+header {
+    position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	min-height: 60px;
+	z-index: 9999;
+	background-color: var(--color-primary);
+	border-top: 4px solid var(--color-primary);
+    box-shadow: 0px 3px 3px #ccc;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    
+}

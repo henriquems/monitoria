@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #12b0a7;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #fffefe;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+	margin-top: 100px;
+	margin-bottom: 140px;
+}
+
+.botao {
+  background-color: var(--color-primary) !important;
+  color: #FFFFFF;
+}
+
+.titulo-pagina {
+  color: var(--color-primary);
+  font-size: 18px;
+}
